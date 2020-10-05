@@ -8,7 +8,17 @@ Proceedings of the IEEE International Conference on Computer Vision. 2019.
 Author's implimentation using pytorch is here.  
 https://github.com/hkzhang91/ST-CLSTM/blob/master/CLSTM_Depth_Estimation-master/models_CLTSM/R_CLSTM_modules_2.py
 
-# File structure
+## Implementation environment
+```
+OS Windows10
+CUDA Toolkit 10.1 update2
+cuDNN v7.6.5 (November 5th, 2019), for CUDA 10.1
+Python 3.6.6 (anaconda3)
+tensorflow 2.3.0
+keras 2.4.3
+```
+
+## File structure
 ```
 Zhang2019_custom_CLSTM/
   ┣━━ README.md    ...    this doc.
