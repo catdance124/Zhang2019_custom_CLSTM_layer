@@ -1,4 +1,4 @@
-# Zhang2019_custom_CLSTM
+# Zhang2019_custom_CLSTM_layer
 This repo includes Zhang2019's CLSTM implemented using keras(tensorflow2).  
 ```
 Zhang, Haokui, et al. "Exploiting temporal consistency for real-time video depth estimation."
@@ -20,7 +20,7 @@ keras 2.4.3
 
 ## File structure
 ```
-Zhang2019_custom_CLSTM/
+Zhang2019_custom_CLSTM_layer/
   ┣━━ README.md    ...    this doc.
   ┣━━ convolutional_recurrent.py ... for calling keras's ConvRNN2D locally
   ┗━━ STConvLSTM2DCell.py    ...    main CLSTM cell
@@ -34,7 +34,7 @@ $ wget https://raw.githubusercontent.com/tensorflow/tensorflow/v2.3.0/tensorflow
 # How to use
 git clone
 ```sh
-$ git clone https://github.com/catdance124/Zhang2019_custom_CLSTM.git
+$ git clone https://github.com/catdance124/Zhang2019_custom_CLSTM_layer.git
 ```
 The following is an example of how to call a custom CLSTM.
 ```python
